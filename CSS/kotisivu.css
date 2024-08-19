@@ -1,0 +1,59 @@
+body {
+    background-color: #AA7539;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 1% 5%;
+    line-height: 150%;
+}
+header {
+    background-color: #d4a36a;
+    color: white;
+}
+section {
+    width: 50%;
+    background-color: #804e15;
+    padding-left: 10px;
+}
+h1, h2, h3 {
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+}
+article {
+    background-color: #804e15;
+}
+.ala {
+    background-color: #ffd8aa;
+    color: black;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #ffd8aa;
+    width: 30%;
+    margin-left: 13%;
+    color: #000000;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+.wiki {
+    text-align: right;
+}
+aside {
+    width: 15%;
+    float: right;
+
+}
+aside article {
+    padding-left: 10px;
+    padding-right: 10px;
+}

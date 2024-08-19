@@ -1,0 +1,27 @@
+tfoot {
+    border: 1px solid black;
+    text-align: right;
+    background-color: lightgray;
+}
+thead {
+    text-align: left;
+    background-color: lightgray;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: right;
+}
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+table tbody tr:nth-child(odd) {
+    background-color: beige;
+}
+table tbody tr:nth-child(even) {
+    background-color: aliceblue
+}
+tbody th {
+    text-align: left;
+}
