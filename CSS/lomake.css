@@ -1,0 +1,27 @@
+body {
+    width: 450px;
+    margin: 0 auto;
+}
+form {
+    height: 650px;
+    padding: 5px 20px;
+    background-color: bisque;
+}
+label {
+    display: block;
+    width: 10em;
+    float: left;
+    clear: left;
+}
+input, textarea, select {
+    width: 10em;
+    float: left;
+}
+.cb, .rb {
+    margin-left: 10em;
+    margin-right: -100px;
+}
+input[type="submit"] {
+    margin-left: 12em;
+    margin-right: 140px;
+}

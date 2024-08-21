@@ -4,31 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lomake</title>
+    <link rel="stylesheet" type="text/css" href="CSS/lomake.css">
 </head>
 <body>
     <form action="">
-        <label for="enimi">Etunimi:</label><br>
-        <input type="text" id="enimi" name="enimi"><br>
-        <label for="snimi">Sukunumi:</label><br>
-        <input type="text" id="snimi" name="snimi">
-        
-        <fieldset>
-            <legend>Henkilötiedot:</legend>
-            <label for="enimi">Etunimi:</label><br>
-        <input type="text" id="enimi" name="enimi"><br>
-        <label for="snimi">Sukunumi:</label><br>
-        <input type="text" id="snimi" name="snimi">
-        </fieldset>
-        <select name="" id="">
-            <option value="TVT-perusteet">TVT-perusteet</option>
-            <option value="Ohjelmointi">Ohjelmointi</option>
-            <option value="Matematiikka">Matematiikka</option>
-            <option value="Ruotsi">Ruotsi</option>
-        </select>
-        <label for="selain">Valitse selain</label><br>
-        <input type="list">
-            <option value="Edge">Edge</option>
+    <h1>Syöttölomake</h1>
+        <label for="enimi">Etunimi:</label>
+        <input type="text" id="enimi" name="enimi" required>
 
+        <label for="spost">Sähköposti:</label>
+        <input type="email" id="sposti" name="sposti" required>
+
+        <label for="salasana">Salasana:</label>
+        <input type="password" id="salasana" name="salasana" required>
+
+        <label for="numero">Numero:</label>
+        <input type="number" id="numero" name="numero">
+
+        <label for="teksialue">Tekstialue:</label>
+        <textarea name="tekstialue" id="teksialue" rows="10" cols="10"></textarea>
+
+        <label for="autot">Pudotusvalikko:</label>
+        <select name="autot" id="autot">
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Dodge">Dodge</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="Volvo">Volvo</option>
+        </select>
+
+        <label for="osaan">Osaan:</label>
+        <label for="osaan1" class="cb">HTML</label>
+        <input type="checkbox" id="osaan1">
+        <label for="osaan2" class="cb">CSS</label>
+        <input type="checkbox" id="osaan2">
+        <label for="osaan3" class="cb">JavaScript</label>
+        <input type="checkbox" id="osaan3">
+
+        <label for="Syön koulussa">Syön koulussa:</label>
+        <label for="radio1" class="rb">Syön</label>
+        <input type="radio" id="radio1">
+        <label for="radio2" class="rb">En syö</label>
+        <input type="radio" id="radio2">
+
+        <label for="color">Väri</label>
+        <input type="color" name="" id="color">
+
+        <label for="date">Päivämäärä</label>
+        <input type="date" name="" id="date">
+
+        <label for="viikko">Viikko</label>
+        <input type="week" name="" id="viikko">
+
+        <label for="kk">Kuukausi</label>
+        <input type="month" name="" id="kk">
+
+        <label for="liuku">Liukuvalitsin</label>
+        <input type="range" id="liuku" step="2">
+
+        <label for="url">URL</label>
+        <input type="url" id="url">
+        
+        <input type="submit" value="Lähetä">
 
     </form>
 

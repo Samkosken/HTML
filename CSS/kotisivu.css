@@ -33,25 +33,33 @@ article {
 }
 nav {
     background-color: #ffd8aa;
-    width: 30%;
+    width: 35%;
     margin-left: 13%;
     color: #000000;
-    text-align: center;
 }
 nav ul {
     list-style-type: none;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 nav li {
-    float: left;
+    display: inline-block;
+    padding: 1px;
+
 }
 .wiki {
     text-align: right;
 }
-aside {
-    width: 15%;
+.sivu {
+    width: 30%;
     float: right;
-
+    text-align: left;
+}
+footer.ala {
+    margin-top: 50px;
+    position: absolute;
+    width: 89%;
 }
 aside article {
     padding-left: 10px;
