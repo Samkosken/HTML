@@ -1,34 +1,76 @@
+/* Pää muotoilu */
 body {
     max-width: 80%;
     margin: 0 auto;
     background-color: #E7CC92;
     box-sizing: border-box;
 }
-header {
+.header {
     background-color: #CEAE68;
     width: 100%;
     float: left;
     text-align: center;
 }
-nav {
+.nav {
     background-color: #B28E3F;
     width: 30%;
     float: left;
     height: 300px;
 }
-nav ul, li {
+nav ul, a:link {
     list-style-type: none;
     text-decoration: none;
-}    
-section {
+    color: green;
+    font-size: 1.3em;
+}
+.nav li {
+    margin-top: 30px;
+}
+.section {
     background-color: #FFEABE;
     width: 70%;
     float: left;
     height: 300px;
 }
-footer {
+.section address {
+    text-align: center;
+    margin-top: 70px;
+}
+.section img {
+    width: 300px;
+    margin-right: 25px;
+    margin-top: -25px;
+    float: right;
+    border-radius: 50px;
+}
+.footer {
     background-color: #CEAE68;
     width: 100%;
     clear: left;
     float: left;
+    text-align: center;
 }
+/* Menu sivun muotoilua */
+
+
+.menu p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu {
+    margin: 0 30px 0 30px;
+    padding-top: 10px;
+}
+.tuote {
+    text-align: left;
+    width: 75%;
+}
+.hinta {
+    text-align: right;
+    width: 25%;
+}
+
+/* Musiikki sivun muotoilua */
