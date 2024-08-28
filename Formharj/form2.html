@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form harjoitus 2</title>
+    <link rel="stylesheet" type="text/css" href="form2.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <th colspan="2">Sign up</th>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="enimi">First name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="enimi">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="snimi">Last name </label>
+                    </td>
+                    <td>
+                        <input type="text" id="snimi">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="syntyaika">Date of Birth </label>
+                    </td>
+                    <td>
+                        <input type="date" id="syntyaika">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sukupuoli">Gender</label>
+                    </td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="maa">Country</label>
+                    </td>
+                    <td>                        
+                        <select id="maa">
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="Uk">UK</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sposti">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" id="sposti" value="Enter E-mail" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="puhelin">Phone</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="puhelin" pattern="[0-9]">                      
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="salasana">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="salasana" required minlength="10">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="salasana1">Confirm Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="salasana1" minlength="10" required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tos">I agree to the Terms of use</label>
+                        
+                    </td>
+                    <td>
+                        <input type="checkbox" id="tos" required>
+
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <label for="submit"></label>
+                        <input type="submit" value="Submit Query" id="submit">
+                        <label for="cancel"></label>
+                        <input type="button" value="Cancel" id="cancel">
+                    </td>
+                </tr>               
+
+            </tfoot>
+        </table> 
+    
+</body>
+</html>
