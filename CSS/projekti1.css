@@ -60,6 +60,7 @@ body {
     height: 500px;
     
 }
+/* Navigointi lista */
 nav li {
     display: inline-block;
     padding: 0 5px;
@@ -77,6 +78,10 @@ nav ul, a:link {
 ul {
     list-style-type: none;
 }
+
+/*                          */
+/* Fontti muotoilua         */
+
 h1 {
     font-size: 4em;
     font-weight: 800;
@@ -99,6 +104,8 @@ h3 {
     font-family: "Nerko One", cursive;
     margin-left: 50px;
 }
+/*                       */
+/*                       */
 aside h3 {
     text-align: center;
     color: black;
@@ -119,4 +126,7 @@ aside .img1 {
 }
 .ala-3 h3 {
     margin-left: 30px;
+}
+.ala-2 img:hover {
+    transform: scale(5)
 }
