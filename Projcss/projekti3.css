@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+}
+.container-1, .container-2, .container-3, .container-4, .parallax {
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-1 {
+    background-image: url(../Kuvat/kosmos1.webp);
+}
+.container-2 {
+    background-image: url(../Kuvat/kosmos2.webp);
+}
+.container-3 {
+    background-image: url(../Kuvat/kosmos3.webp);
+
+}
+.container-4 {
+    background-image: url(../Kuvat/kosmos4.webp);
+}
+.section-1, .section-2, .section-3, .section-4 {
+    height: 150px;
+    font-size: 20px;
+}
+.section-1 {
+    background-color: red;
+    text-align: center;
+    margin: auto 0;
+}
+.section-2 {
+    background-color: yellow;
+    text-align: center;
+}
+.section-3 {
+    background-color: green;
+    text-align: center;
+}
+.section-4 {
+    background-color: aqua;
+    text-align: center;
+}
