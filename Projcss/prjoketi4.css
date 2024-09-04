@@ -1,0 +1,31 @@
+body {
+    max-width:  50%;
+    margin: 0 auto;
+    background-image: url(../Kuvat/gaming.jpg);
+    background-repeat: repeat;
+}
+
+.lomake {
+    background-color: bisque;
+    border: 2px solid black;
+    padding-left: 100px;
+}
+form {
+    height: 550px;
+    border: 2px solid black;
+    padding-left: 100px;
+    background-color: bisque;
+}
+label {
+    display: block;
+    width: 15em;
+    float: left;
+    clear: left
+}
+input, textarea, select {
+    float: left;
+}
+input[type="submit"] {
+    margin-left: 25em;
+    margin-top: 5em;
+}
