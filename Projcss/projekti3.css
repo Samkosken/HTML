@@ -1,16 +1,32 @@
+/* parallax konttien responsiivisuus */
+/*                                   */
+@media screen and (max-width: 992px) {
+    .container-1, .container-2, .container-3, .container-4, .parallax {
+        max-height: 75%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container-1, .container-2, .container-3, .container-4, .parallax {
+        max-height: 50%;
+    }
+}
+/* Määrittää sivun koon */
+/*                      */
 body, html {
     height: 100%;
 }
 .container-1, .container-2, .container-3, .container-4, .parallax {
-    /* Full height */
+    
+    /*   Parallax vierivä efekti    */
+    /*                              */
     height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: fixed;               
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* Taustakuvat kontteihin */
+/*                        */
 .container-1 {
     background-image: url(../Kuvat/kosmos1.webp);
 }
@@ -24,24 +40,42 @@ body, html {
 .container-4 {
     background-image: url(../Kuvat/kosmos4.webp);
 }
+/* Sectionin osan koko */
+/* ja fontin koko      */
 .section-1, .section-2, .section-3, .section-4 {
     height: 150px;
     font-size: 20px;
+    margin-top: -25px;
 }
+/* Sectionin taustavärit */
+/* ja tekstin keskitys   */
 .section-1 {
-    background-color: red;
+    background-color: #486C2B;
     text-align: center;
-    margin: auto 0;
 }
 .section-2 {
-    background-color: yellow;
+    background-color: #658748;
     text-align: center;
 }
 .section-3 {
-    background-color: green;
+    background-color: #84A568;
     text-align: center;
 }
 .section-4 {
-    background-color: aqua;
+    background-color: #AFCA99;
     text-align: center;
+}
+/* Tekstien muotoilua */
+/*                    */
+h3, p {
+    text-align: center;
+}
+a, a:link {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: "Zhi Mang Xing", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
