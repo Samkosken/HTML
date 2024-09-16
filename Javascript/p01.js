@@ -40,9 +40,11 @@ var mtoyard = 1.0936
 console.log(num1 * yardtom)
 console.log(num1 * mtoyard)
 // p14
-let arvo = prompt("Anna arvo. Muunnan fahrenheitin celciukseksi");
-console.log(arvo = ctof)
-// p15
+
+// let arvo = prompt("Anna arvo. Muunnan fahrenheitin celciukseksi");
+// console.log(arvo = ctof)
+//
+
 let arvo1 = prompt("Anna luku")
 let arvo2 = prompt("Anna toinen luku")
 summa1 = parseInt(arvo1) + parseInt(arvo2)
@@ -53,3 +55,39 @@ console.log(summa1)
 console.log(erotus1)
 console.log(tulo1)
 console.log(jako1)
+ 
+// p15
+
+
+ let sade = prompt("Anna säde");
+function laskeala(sade) {
+    return sade * sade * Math.PI;   
+}
+let ala = laskeala(sade)
+console.log(ala)
+
+ //p16
+
+var nelioSivu = prompt("Anna neliön sivun, lasken pinta-alan");
+ function nelioPintaAla(nelioSivu) {
+    return nelioSivu * nelioSivu;
+}
+let pintaala = nelioPintaAla(nelioSivu);
+console.log(pintaala);
+
+ // p17
+ var suoraKulmioSivuA = prompt("Anna sivu a");
+var suoraKulmioSivuB = prompt("Anna sivu b");
+function suoraKulmioSivu(suoraKulmioSivuA, suoraKulmioSivuB) {
+    return suoraKulmioSivuA * suoraKulmioSivuB;
+}
+let suoraKulmioAla = suoraKulmioSivu(suoraKulmioSivuA,suoraKulmioSivuB);
+console.log(suoraKulmioAla);
+// p18 
+
+function paivatvuosiksi(paivat) {
+    let vuodet = paivat / 365
+    let kuukaudet = ((paivat % 365) / paivat / 365)
+    let 
+    
+}
