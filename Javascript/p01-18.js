@@ -44,6 +44,7 @@ console.log(num1 * mtoyard)
 // let arvo = prompt("Anna arvo. Muunnan fahrenheitin celciukseksi");
 // console.log(arvo = ctof)
 //
+/*
 
 let arvo1 = prompt("Anna luku")
 let arvo2 = prompt("Anna toinen luku")
@@ -58,8 +59,7 @@ console.log(jako1)
  
 // p15
 
-
- let sade = prompt("Anna säde");
+let sade = prompt("Anna säde");
 function laskeala(sade) {
     return sade * sade * Math.PI;   
 }
@@ -83,11 +83,12 @@ function suoraKulmioSivu(suoraKulmioSivuA, suoraKulmioSivuB) {
 }
 let suoraKulmioAla = suoraKulmioSivu(suoraKulmioSivuA,suoraKulmioSivuB);
 console.log(suoraKulmioAla);
-// p18 
+// p18 */
 
 function paivatvuosiksi(paivat) {
-    let vuodet = paivat / 365
-    let kuukaudet = ((paivat % 365) / paivat / 365)
-    let 
-    
+    let vuodet = parseInt(paivat / 365);
+    let kuukaudet = parseInt((paivat % 365) / (365 / 12));
+    let pvt = parseInt((paivat % 365) - kuukaudet * (365 / 12));
+    console.log(paivat +  " paivaa " + "on " + vuodet + " vuotta " + kuukaudet + " kuukautta " + pvt + " paivaa.");
 }
+paivatvuosiksi(20000);
