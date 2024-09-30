@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="kieli">Valitse kieli, käännän lauseen "Hei maailma!"</label>
+        </p>
+        <p>
+            <select id="kieli">
+                <option value="suo" id="suo">Suomi</option>
+                <option value="eng" id="eng">Englanti</option>
+                <option value="ruo" id="ruo">Ruotsi</option>
+            </select>
+        
+        </p>
+        <button onclick="kaantaja()">Käännä</button>
+    </form>
+    <p id="vastauss"></p>
+    <script src="kaannakieli.js"></script>
+</body>
+</html>
