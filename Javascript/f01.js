@@ -21,12 +21,12 @@ console.log("p04");
 
 function laskeKeskiarvo(taulukko) {
     let summa = 0;
-    for(var i = 0; i <= taulukko.length-1; i++)
+    for(var i = 0; i <= taulukko.length; i++)
     {
         
         summa += taulukko[i];
     }
-    return summa / taulukko.length;
+    return summa / taulukko.length-1;
 }
 
 console.log(laskeKeskiarvo([1, 2, 3, 4, 5]));
