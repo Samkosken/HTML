@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient( to left, black, blue);
+    max-width: 80%;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+input {
+    width: 300px;
+    margin-bottom: 3px;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 28%;
+    bottom: 28%;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(to right, yellow, green, red);
+    border-radius: 20px;
+    padding: 40px;       
+}
+
+button {
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: chocolate;
+    border-radius: 10px;
+}
