@@ -97,12 +97,3 @@ function laskePotenssi(num1, num2) {
 console.log(laskePotenssi(5,5));
 // p12
 console.log("p12");
-
-function laskeAlkuluku(num) {
-    if (num <= 1) return false;
-    if (num <= 3) return true;
-    if (num % 2 === 0 || luku % 3 === 0) return false;
-    let i = 5;
-    while (i * i)
-} 
-console.log(laskeAlkuluku())
