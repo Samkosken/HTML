@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom.js"></script>
+</head>
+<body>
+    <p id="muokattava">
+        Muutetaan tätä tekstiä.
+        <button onclick="muutaTeksti()">Muuna tekstiä</button>
+        <form>
+            <p>
+                <label for="etunimi">Etunimi:</label>
+                <input type="text" name="name" id="etunimi">
+            </p>
+            <p id="vari">
+                <label for="sukunimi">Sukunimi:</label>
+                <input type="text" name="name" id="sukunimi">
+                <button onclick="haeTiedot()">Hae tiedot</button>
+                <button onclick="vari()">Vaihda väri</button>
+            </p>
+
+
+        </form>
+    </p>
+</body>
+</html>
