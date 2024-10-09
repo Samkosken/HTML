@@ -7,7 +7,7 @@
     <script src="dom.js"></script>
 </head>
 <body>
-    <p id="muokattava">
+    <p id="muokattava"> 
         Muutetaan tätä tekstiä.
         <button onclick="muutaTeksti()">Muuna tekstiä</button>
         <form>
@@ -16,14 +16,77 @@
                 <input type="text" name="name" id="etunimi">
             </p>
             <p id="vari">
-                <label for="sukunimi">Sukunimi:</label>
+                <label for="sukunimi">Sukunimi:</label>             
                 <input type="text" name="name" id="sukunimi">
                 <button onclick="haeTiedot()">Hae tiedot</button>
                 <button onclick="vari()">Vaihda väri</button>
             </p>
-
-
+            <p>
+                <a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://www.w3resource.com/">Hae tämän linkin tiedot</a>
+                <button onclick="haeTiedotLinkista()">Hae linkin tiedot</button>
+            </p>
+            
         </form>
+        <table border="1" id="taulukko">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <button onclick="lisaaRivi()">Lisää rivi</button>
+
+        <table border="1" id="taulukko1">
+            <tr>
+                <td>Row0 Cell0</td>
+                <td>Row0 Cell1</td>
+            </tr>
+            <tr>
+                <td>Row1 Cell0</td>
+                <td>Row1 Cell1</td>
+            </tr>
+        </table>
+        <p>
+            <label for="rivi">Muutettava rivi</label>
+            <input type="text" id="rivi">
+        </p>
+        <p>
+            <label for="solu">Muutettava solu</label>
+            <input type="text" id="solu">
+        </p>
+        <p>
+            <label for="arvo">Muuta solua</label>
+            <input type="text" id="arvo">
+        </p>
+        <button onclick="muutaSolua()">Muuta solun tietoa</button>
     </p>
+    <p>
+        <table id="taulukko2" border="1">
+
+        </table>
+        <p>
+            <label for="rivimaara">Anna rivien määrä</label>
+            <input type="text" id="rivimaara">
+        </p>
+        <p>
+            <label for="sarakemaara">Anna sarakkeittein määrä</label>
+            <input type="text" id="sarakemaara">
+        </p>
+        <button onclick="lisaaTaulukkoon()">Lisää rivit ja sarakkeet</button>
+    </p>
+    <p>
+        <label for="age">Valitse ikä</label></td>
+                <select id="age">
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22ormore">More than 22</option>
+                </select>
+        <button onclick="poistaValinta()">Poista valinta</button>
+    </p>
+    <a id="linkkilause" href="http://">We have just started this section for the users (beginner to intermediate) who want to work with various JavaScript problems and write scripts online to test their JavaScript skill."</a>
 </body>
 </html>
