@@ -65,7 +65,65 @@ function poistaValinta() {
     valinta.remove(valinta.selectedIndex);
 }
 // DOM09
+function laskeValinnat() {
+    var valinta = document.getElementById("age");
+    var maara = "Valintojen määrä on ";
+    alert(maara + valinta.length);
+}
+// DOM10
+var lihavoidut;
+
+window.onload = muutaLinkkiLause();
 function muutaLinkkiLause() {
-    var linkki = document.getElementById("linkkilause");
-    linkki.style.overscrollBehavio = "green"
+    lihavoidut = document.getElementsByTagName("strong");
+
+}
+function korosta() {
+    for (var i = 0; i < lihavoidut.length; i++) {
+        lihavoidut[i].style.color = "green";
+}
+}
+function palaaNormaaliin() {
+    for (var i = 0; i < lihavoidut.length; i++) {
+        lihavoidut[i].style.color = "black";
+}
+}
+// DOM11
+function selainIkkunaTiedot() {
+    var leveys = document.documentElement.clientWidth;
+    var korkeus = document.documentElement.clientHeight;
+    document.getElementById("tiedot").innerHTML = "<h1>Ikkunan leveys on " + leveys + " ja korkeus on " + korkeus + "</h1>";
+}
+// DOM12
+function muutaElementtia() {
+    const teksti = document.getElementById("muutatekstia");
+    teksti.textContent = prompt("Muuta teksti omaksesi");
+}
+// DOM13
+function uusiTeksti() {
+    const uusiElementti = document.createElement('p');
+    uusiElementti.textContent = prompt("Kirjoita tekstiä sivulle!");
+    document.getElementById('uusip').appendChild(uusiElementti);
+    }
+// DOM14
+function poistaTeksti() {
+    const poistaElementti = document.getElementById("poistettava");
+    poistaElementti.parentNode.removeChild(poistaElementti);
+}
+// DOM15
+function lisaaLuokka() {
+    const lisaa = document.getElementById("lisaaluokka");
+    lisaa.classList.add("uusiluokka");
+}
+// DOM16
+function valitseJaVaihda() {
+    var elementti = document.querySelector(".etsijavaihda");
+    elementti.textContent = "Vaihdettu";
+}
+// DOM17
+function valitseKaikkiLi() {
+    var listat = document.querySelectorAll(".li");
+    listat.forEach((kohta, indeksi) => {
+        kohta.textContent = `Kohta ${indeksi + 1} muokattu`;
+    });
 }
