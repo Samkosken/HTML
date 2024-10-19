@@ -127,3 +127,4 @@ function valitseKaikkiLi() {
         kohta.textContent = `Kohta ${indeksi + 1} muokattu`;
     });
 }
+// DOM18
