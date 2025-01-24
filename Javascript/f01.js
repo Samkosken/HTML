@@ -97,3 +97,6 @@ function laskePotenssi(num1, num2) {
 console.log(laskePotenssi(5,5));
 // p12
 console.log("p12");
+var teksti = [1,2,4,5];
+teksti.pop();
+console.log(teksti);
